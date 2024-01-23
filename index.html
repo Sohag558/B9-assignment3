@@ -95,9 +95,9 @@
             <div class=" pt-5 carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full" />
-                    <div id="heroes">
+                    <div id="heroes" class=" rounded-xl p-5 bg-black absolute gap-1">
                         <h2>Meet all the heroes from the field</h2>
-                        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
+                        <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus
                             urna in sit nullam proin. </p>
                     </div>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -107,11 +107,11 @@
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full" />
-                    <div id="heroes">
+                    <!-- <div id="heroes">
                         <h2>Meet all the heroes from the field</h2>
                         <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus
                             urna in sit nullam proin. </p>
-                    </div>
+                    </div> -->
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
@@ -144,39 +144,39 @@
         <!-- Professional Hockeys Club styles -->
         <section class="mx-12">
             <div class=" flex flex-col md:flex-col lg:flex-row gap-1 mt-10">
-                <div>
+                <div class="text-center">
                     <div id="first" class="radial-progress " style="--value:87;" role="progressbar"><span
                             class="text-black font-extrabold text-2xl">87%</span>
                     </div>
                     <div id="first-content">
-                        <h3 class="text-xl font-semibold">Prayer Facility</h3>
+                        <h3 class="text-xl my-3 font-semibold">Prayer Facility</h3>
                         <p id="color-1">Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                 </div>
 
-                <div>
+                <div class="text-center">
                     <div id="second" class="radial-progress" style="--value:95;" role="progressbar"><span
                             class="text-black font-extrabold text-2xl">95%</span></div>
                     <div>
-                        <h3 class="text-xl font-semibold">Experienced Coach</h3>
+                        <h3 class="text-xl my-3 font-semibold">Experienced Coach</h3>
                         <p id="color-1">Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                 </div>
 
-                <div>
+                <div class="text-center">
                     <div id="third" class="radial-progress" style="--value:90;" role="progressbar"><span
                             class="text-black font-extrabold text-2xl">90%</span></div>
                     <div>
-                        <h3 class="text-xl font-semibold">Senior Player</h3>
+                        <h3 class="text-xl my-3 font-semibold">Senior Player</h3>
                         <p id="color-1">Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                 </div>
 
-                <div>
+                <div class="text-center">
                     <div id="fourth" class="radial-progress" style="--value:80;" role="progressbar"><span
                             class="text-black font-extrabold text-2xl">80%</span></div>
                     <div>
-                        <h3 class="text-xl font-semibold">Training Ground</h3>
+                        <h3 class="text-xl  my-3 font-semibold">Training Ground</h3>
                         <p id="color-1">Amet consectetur. Condimentum dignissim adipiscing .</p>
                     </div>
                 </div>
@@ -246,19 +246,19 @@
         <section class="mx-12">
             <div class="mt-9">
                 <h2 class=" text-center text-3xl font-extrabold">Our New Products</h2>
-                <p class=" mt-3 text-center text-base font-medium leading-6">
+                <p class=" mt-3 text-center text-base font-medium leading-5">
                     Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus
                     urna in sit nullam proin.
                 </p>
             </div>
             <!-- here is hero card section -->
-            <div class="mt-10 grid-cols-2 ">
-                <div class="hero w-4/5 rounded-xl bg-base-200">
-                    <div class="hero-content flex-col lg:flex-row">
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 flex-1 ">
+                <div class="hero  md:w-80 lg:w-4/5 w-96 rounded-xl bg-base-200">
+                    <div class="w-80 hero-content flex-col lg:flex-row">
                         <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
                             <div class="flex gap-3">
-                                <div class="flex gap-1">
+                                <div class=" flex gap-1">
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                             viewBox="0 0 24 24" fill="none">
@@ -329,7 +329,7 @@
                                     <h5>200</h5>
                                 </div>
                             </div>
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                            <h1 class="text-3xl font-bold">World Cup Flags Football</h1>
                             <p class="py-6 text-base font-medium leading-6">Dolor sit amet consectetur. Ut urna diam
                                 quis sagittis. </p>
                             <div class="flex gap-5">
@@ -371,7 +371,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-5 hero w-4/5 rounded-xl bg-base-200">
+                <div class="mt-5 hero md:w-80 lg:w-4/5 w-96 rounded-xl bg-base-200">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -447,7 +447,7 @@
                                     <h5>200</h5>
                                 </div>
                             </div>
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                            <h1 class="text-3xl font-bold">World Cup Flags Football</h1>
                             <p class="py-6 text-base font-medium leading-6">Dolor sit amet consectetur. Ut urna diam
                                 quis sagittis. </p>
                             <div class="flex gap-5">
@@ -489,7 +489,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-5 hero w-4/5 rounded-xl bg-base-200">
+                <div class="mt-5 hero  md:w-80 lg:w-4/5 w-96 rounded-xl bg-base-200">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -565,7 +565,7 @@
                                     <h5>200</h5>
                                 </div>
                             </div>
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                            <h1 class="text-3xl font-bold">Cap For Hockeys</h1>
                             <p class="py-6 text-base font-medium leading-6">Dolor sit amet consectetur. Ut urna diam
                                 quis sagittis. </p>
                             <div class="flex gap-5">
@@ -607,7 +607,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-5 hero w-4/5 rounded-xl bg-base-200">
+                <div class="mt-5 hero  md:w-80 lg:w-4/5 w-96 rounded-xl bg-base-200">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -683,7 +683,7 @@
                                     <h5>200</h5>
                                 </div>
                             </div>
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                            <h1 class="text-3xl font-bold">World Cup Flags Football</h1>
                             <p class="py-6 text-base font-medium leading-6">Dolor sit amet consectetur. Ut urna diam
                                 quis sagittis. </p>
                             <div class="flex gap-5">
@@ -725,7 +725,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-5 hero w-4/5 rounded-xl bg-base-200">
+                <div class="mt-5 hero  md:w-80 lg:w-4/5 w-96 rounded-xl bg-base-200">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -801,7 +801,7 @@
                                     <h5>200</h5>
                                 </div>
                             </div>
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                            <h1 class="text-3xl font-bold">World Cup Flags Football</h1>
                             <p class="py-6 text-base font-medium leading-6">Dolor sit amet consectetur. Ut urna diam
                                 quis sagittis. </p>
                             <div class="flex gap-5">
@@ -843,7 +843,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-5 hero w-4/5 rounded-xl bg-base-200">
+                <div class="mt-5 hero  md:w-80 lg:w-4/5 w-96 rounded-xl bg-base-200">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
                         <div>
@@ -919,7 +919,7 @@
                                     <h5>200</h5>
                                 </div>
                             </div>
-                            <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+                            <h1 class="text-3xl font-bold">World Cup Flags Football</h1>
                             <p class="py-6 text-base font-medium leading-6">Dolor sit amet consectetur. Ut urna diam
                                 quis sagittis. </p>
                             <div class="flex gap-5">
@@ -1078,12 +1078,12 @@
                 </div>
                 <div class="mt-20 ml-10">
                     <form action="">
-                        <div class="flex">
+                        <div class="flex flex-col lg:flex-row">
                             <div>
                                 <h3 class="text-xl font-bold mb-1">Your Name</h3>
                                 <input type="text" placeholder="Enter your full name" required
                                     class="input input-ghost w-full max-w-xs" />
-                                <h3 class=" mt-5 text-xl font-bold mb-1">Subject</h3>
+                                <h3 class=" my-5 text-xl font-bold mb-1">Subject</h3>
                                 <input type="text" placeholder="Enter your subject" required
                                     class=" input input-ghost w-full max-w-xs" />
                             </div>
@@ -1091,16 +1091,16 @@
                                 <h3 class="  text-xl font-bold mb-1">Your Email</h3>
                                 <input type="email" placeholder="Enter your email" required
                                     class="input input-ghost w-full max-w-xs" />
-                                <h3 class="mt-5 text-xl font-bold mb-1">Phone Number</h3>
+                                <h3 class="my-5 text-xl font-bold mb-1">Phone Number</h3>
                                 <input type="text" placeholder="Enter your phone number" required
                                     class="input input-ghost w-full max-w-xs" />
                             </div>
                         </div>
                         <div>
-                            <h3 class="text-xl font-bold mb-1">Massage</h3>
+                            <h3 class="text-xl my-5 font-bold mb-1">Massage</h3>
                             <textarea placeholder="Write your message"
                                 class="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
-                            <button class="text-2xl font-bold bg-red-500 btn btn-wide">Send Message</button>
+                            <button class="text-2xl my-5 font-bold bg-red-500 btn btn-wide">Send Message</button>
                         </div>
                     </form>
                 </div>
