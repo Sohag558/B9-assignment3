@@ -17,29 +17,6 @@
     border-style: none;
 }
 
-#heroes {
-    border-radius: 12px;
-    background: #131318;
-    padding: 16px;
-    gap: 8px;
-}
-
-#heroes h2 {
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-#heroes p {
-    color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-}
-
 #first {
     color: #FF4240;
 }
